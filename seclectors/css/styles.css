@@ -1,0 +1,33 @@
+body{
+    font-family: sans-serif;
+    font-size: 30px;
+
+
+}
+
+
+div > p{
+    background-color: rgb(48, 33, 255);
+}
+div + P{
+    background-color: red;
+}
+
+a[target] {
+    background-color: rgb(177, 103, 247);
+}
+a[target="_blank"] {
+    background-color: aqua;
+}
+input:focus{
+    background-color: rgb(0, 255, 242)
+}
+
+/* ///////////////////// */
+.first-let p::first-letter{
+    font-size: 400%;
+    color: rgb(91, 240, 54);
+}
+ p:first-of-type{
+    background-color: rgb(194, 134, 43);
+}
